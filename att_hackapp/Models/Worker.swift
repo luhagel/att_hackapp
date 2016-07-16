@@ -18,25 +18,25 @@ enum WorkerType {
 }
 
 
-class Worker {
-    var phoneNumber: String!
-    var name: String!
-    var imgURL: String
-    var workerId: String!
-    var description: String!
-    var rating: Float
-    var type: WorkerType
-    
-    init(id: String) {
-        Alamofire.request(.GET, url).validate().responseJSON { response in
-            switch response.result {
-            case .Success:
-                if let value = response.result.value {
-                    let json = JSON(value)
-                    //TODO: IMPLEMENT                }
-            case .Failure(let error):
-                print(error)
-            }
-        }
-    }
-}
+//class Worker {
+//    var phoneNumber: String!
+//    var name: String!
+//    var imgURL: String
+//    var workerId: String!
+//    var description: String!
+//    var rating: Float
+//    var type: WorkerType
+//    
+//    init(id: String) {
+//        Alamofire.request(.GET, url).validate().responseJSON { response in
+//            switch response.result {
+//            case .Success:
+//                if let value = response.result.value {
+//                    let json = JSON(value)
+//                    //TODO: IMPLEMENT                }
+//            case .Failure(let error):
+//                print(error)
+//            }
+//        }
+//    }
+//}

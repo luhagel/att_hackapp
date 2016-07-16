@@ -11,6 +11,7 @@
 		814F94201D39CE1F0035F33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F941E1D39CE1F0035F33F /* Main.storyboard */; };
 		814F94221D39CE1F0035F33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814F94211D39CE1F0035F33F /* Assets.xcassets */; };
 		814F94251D39CE1F0035F33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F94231D39CE1F0035F33F /* LaunchScreen.storyboard */; };
+		81A4265C1D39E06E0082A25B /* MSGWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4265B1D39E06E0082A25B /* MSGWrapper.swift */; };
 		81E6A8B81D39D36A00A166A4 /* WorkerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6A8B71D39D36A00A166A4 /* WorkerDetailViewController.swift */; };
 		81E6A8BA1D39D39400A166A4 /* WorkerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6A8B91D39D39400A166A4 /* WorkerTableViewController.swift */; };
 		81E6A8BC1D39D3AC00A166A4 /* WorkerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6A8BB1D39D3AC00A166A4 /* WorkerTableViewCell.swift */; };
@@ -28,6 +29,7 @@
 		814F94211D39CE1F0035F33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814F94241D39CE1F0035F33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814F94261D39CE1F0035F33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		81A4265B1D39E06E0082A25B /* MSGWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGWrapper.swift; sourceTree = "<group>"; };
 		81E6A8B71D39D36A00A166A4 /* WorkerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerDetailViewController.swift; sourceTree = "<group>"; };
 		81E6A8B91D39D39400A166A4 /* WorkerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerTableViewController.swift; sourceTree = "<group>"; };
 		81E6A8BB1D39D3AC00A166A4 /* WorkerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerTableViewCell.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				814F94261D39CE1F0035F33F /* Info.plist */,
 				814F941A1D39CE1F0035F33F /* AppDelegate.swift */,
 				81E6A8BF1D39D48900A166A4 /* GoogleService-Info.plist */,
+				81A4265B1D39E06E0082A25B /* MSGWrapper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				814F941B1D39CE1F0035F33F /* AppDelegate.swift in Sources */,
 				81E6A8BA1D39D39400A166A4 /* WorkerTableViewController.swift in Sources */,
 				81E6A8BC1D39D3AC00A166A4 /* WorkerTableViewCell.swift in Sources */,
+				81A4265C1D39E06E0082A25B /* MSGWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
