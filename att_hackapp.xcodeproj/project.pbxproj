@@ -15,6 +15,7 @@
 		81E6A8BA1D39D39400A166A4 /* WorkerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6A8B91D39D39400A166A4 /* WorkerTableViewController.swift */; };
 		81E6A8BC1D39D3AC00A166A4 /* WorkerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6A8BB1D39D3AC00A166A4 /* WorkerTableViewCell.swift */; };
 		81E6A8BE1D39D3C900A166A4 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6A8BD1D39D3C900A166A4 /* Worker.swift */; };
+		81E6A8C01D39D48900A166A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81E6A8BF1D39D48900A166A4 /* GoogleService-Info.plist */; };
 		C1039A3238D1968307B4A414 /* Pods_att_hackapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C514B6F518C97C3B42F0BE5C /* Pods_att_hackapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		81E6A8B91D39D39400A166A4 /* WorkerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerTableViewController.swift; sourceTree = "<group>"; };
 		81E6A8BB1D39D3AC00A166A4 /* WorkerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerTableViewCell.swift; sourceTree = "<group>"; };
 		81E6A8BD1D39D3C900A166A4 /* Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		81E6A8BF1D39D48900A166A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C514B6F518C97C3B42F0BE5C /* Pods_att_hackapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_att_hackapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 			children = (
 				814F94261D39CE1F0035F33F /* Info.plist */,
 				814F941A1D39CE1F0035F33F /* AppDelegate.swift */,
+				81E6A8BF1D39D48900A166A4 /* GoogleService-Info.plist */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				814F94251D39CE1F0035F33F /* LaunchScreen.storyboard in Resources */,
+				81E6A8C01D39D48900A166A4 /* GoogleService-Info.plist in Resources */,
 				814F94221D39CE1F0035F33F /* Assets.xcassets in Resources */,
 				814F94201D39CE1F0035F33F /* Main.storyboard in Resources */,
 			);
