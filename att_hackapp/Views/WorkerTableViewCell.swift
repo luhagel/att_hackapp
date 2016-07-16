@@ -9,6 +9,12 @@
 import UIKit
 
 class WorkerTableViewCell: UITableViewCell {
+    
+    //MARK: Outlets
+    @IBOutlet weak var workerProfileImage: UIImageView!
+    @IBOutlet weak var workerName: UILabel!
+    @IBOutlet weak var workerPriceHour: UILabel!
+    @IBOutlet weak var workerStatus: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

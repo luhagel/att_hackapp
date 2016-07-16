@@ -9,6 +9,13 @@
 import UIKit
 
 class WorkerDetailViewController: UIViewController {
+    
+    
+    @IBOutlet weak var workerProfileImage: UIImageView!
+    @IBOutlet weak var workerName: UILabel!
+    @IBOutlet weak var workerPriceHour: UILabel!
+    @IBOutlet weak var workerStatus: UILabel!
+    @IBOutlet weak var workerDescription: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
