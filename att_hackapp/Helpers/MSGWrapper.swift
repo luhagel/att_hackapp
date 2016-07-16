@@ -14,7 +14,7 @@ class MSGWrapper {
     let API_KEY = "eavcrcau4j47npiiju0dixdjdq2ulsgv"
     let API_SECRET = "qjdemusnroqwem5lx7tfcbyiwfoqyb3d"
     func authenticate() {
-        
+        //Whatever
     }
     
     func sendMessage(msg: String, to: String) -> Bool {
